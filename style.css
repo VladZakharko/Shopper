@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.header{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top_header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.logo span{
+    color: #10B981;
+}
+
+.input{
+    width: 320px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input_icon{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: #10B981;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.input input{
+    border: none;
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+
+.items{
+    width: 230px;
+    height: 70px;
+    border: 1px solid #10B981;
+    border-radius: 30px;
+    background-color: rgb(250, 250, 250);
+    font-size: 16px;
+}
+
+.fa-bag-shopping{
+    color: #10B981;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.login{
+    width: 230px;
+    height: 70px;
+    border: 1px solid #10B981;
+    border-radius: 30px;
+    background-color: #10B981;
+    color: rgb(250, 250, 250);
+    font-size: 16px;
+}
+
+.fa-user{
+    color: rgb(250, 250, 250);
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.bottom_header{
+    width: 100%;
+    background-color: #10B981;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    padding: 0 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.nav a:hover{
+    color: rgb(250, 250, 250);
+}
